@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(13, 48, 13);
+    color: white;
+
+}
+footer{
+    background-color: rgb(13, 48, 13);
+    text-align: center;
+    font-size: larger;
+    background-position: bottom;
+
+}
+ul{
+    list-style: none;
+    text-align: end;
+}
+body{
+    background-color: rgb(56, 88, 56)
+}
+li{
+    display: inline;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+h1{ margin-top: 0%;
+    margin-bottom: 0%;
+    font-style: oblique;
+    letter-spacing: 2px;}
+img{
+        max-width: 100px;
+        min-width: 300px;
+        max-height: 300px;
+        object-fit:cover;}
+    
+table{
+        border-collapse:separate;
+        text-indent:inherit;
+        padding-left: 100px;
+        border-radius: 100px;
+        font-size:medium;
+        border-top: 50px;
+    
+    }
+tr{
+        display:table-row;
+        vertical-align: middle;
+        text-align: center;
+        }
+h2{ font-size: medium;}
+.discografia{
+    font-size: xx-large;
+    text-align: center;
+    }
+
+a{
+    text-decoration: none;
+    color: white;
+    }
