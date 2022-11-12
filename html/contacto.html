@@ -4,53 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fanpage de Keane">
+    <meta name="keywords" content="keane, keane band, fanpage, somewhere only we know, glee, tik tok">
     <link rel="shortcut icon" href="../img/favicon/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/contacto.css">
     <title>Keaneofficial/Contacto</title>
 </head>
 <body>
-    <header>
-        <h1>Keane</h1>
-    <nav>
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./biografia.html">Historia</a></li>
-            <li><a href="./Integrantes.html">Integrantes</a></li>
-            <li><a href="./Discografia.html">Discografia</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
+    <header class="hijo1">
+        <h1 class="hijo1__logo">Keane</h1>
+    <nav class="hijo2">
+            <li><a href="../index.html">INICIO</a></li>
+            <li><a href="./biografia.html">HISTORIA</a></li>
+            <li><a href="./Integrantes.html">INTEGRANTES</a></li>
+            <li><a href="./Discografia.html">DISCOGRAFIA</a></li>
+            <li><a href="./contacto.html">CONTACTO</a></li>
+
     </nav>
     </header>
-    <main>
-    <img src="../img/contacto/Keane2.jpg" alt="">
+    <main class="hijo3">
+    <div>
+    <img src="../img/contacto/keaneportada2-min.png" alt="keane" class="foto">
+    </div>
+    <div class="mb-3" id="form">
+        <form action="">
+        <div>
+        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su nombre">
+      </div>
+        <label for="exampleFormControlInput1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su Email">
+      </div>
+      <div class="mb-3" id="form">
+        <label for="exampleFormControlTextarea1" class="form-label">Deje aqui su mensaje</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+      </div>
+      <div class="btn">
+        <button type="submit" class="btn btn-secondary">Enviar</button>
+        <button type="reset" class="btn btn-secondary">Limpiar</button>
 
-    <form action="">
-        <fieldset>
-        <legend>Contacto</legend>
-        <label for="Nombre">Nombre</label>
-        <input type="text" placeholder="Ingrese su nombre" id="Nombre">
-        <br>
-        <label for="Email">Email</label>
-        <input type="email" placeholder="Ingrese su Email" id="Email">
-        <br>
-        <label for="Asunto">Asunto</label>
-        <input type="text" placeholder="Asunto de contacto" id="Asunto">
-        <br>
-        <label for="Comentario">Comentario</label>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <button type="submit">Enviar</button>
-        <button type="reset">Limpiar</button>
-        </fieldset>
+      </div>
         
     </form>
     </main>
     
 
 
-    <footer>
-        <a href="https://www.youtube.com/channel/UCu1raXDJ4jkIiyy_NOUF2QQ">Youtube</a>
-        <a href="https://open.spotify.com/artist/53A0W3U0s8diEn9RhXQhVz?si=1OKAqd8HRUGfgY5ub-jD6w">Spotify</a>
-        <a href="https://www.instagram.com/keaneofficial/?hl=es">Instagram</a>
-    </footer>
+    <footer class="hijo4">
+        <ul>
+        <li>
+            <a class="bi bi-youtube" href="https://www.youtube.com/channel/UCu1raXDJ4jkIiyy_NOUF2QQ"></a>
+        </li>
+        <li>
+            <a class="bi bi-spotify" href="https://open.spotify.com/artist/53A0W3U0s8diEn9RhXQhVz?si=1OKAqd8HRUGfgY5ub-jD6w"></a>
+        </li>
+        <li>
+            <a class="bi bi-instagram" href="https://www.instagram.com/keaneofficial/?hl=es"></a> 
+        </li>
+        </ul>
+    </footer> 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
 </body>
 </html>

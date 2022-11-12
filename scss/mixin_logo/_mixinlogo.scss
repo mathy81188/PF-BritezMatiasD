@@ -1,0 +1,6 @@
+@mixin size_logo ($alto,$tamanio,$color) {
+    height: $alto;
+    font-size: $tamanio;
+    color: $color;
+    
+}
