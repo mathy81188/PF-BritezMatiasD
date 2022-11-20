@@ -9,7 +9,7 @@
     padding: 0;}
 
 body{
-    background-color: rgb(85, 59, 20);
+    background-image: linear-gradient(rgb(63,13,13), rgb(201, 185, 185),rgb(63,13,13));
     height: auto;
 
 }
@@ -27,6 +27,12 @@ body{
         font-style: oblique;
         letter-spacing: 2px;
         text-align: center;
+        padding-top: 2px;
+        padding-left: 10px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
     }
 }
 
@@ -61,8 +67,7 @@ body{
 
 
 .hijo3{
-
-    height: 1000px;
+    height: auto;
     margin: 0;
 }
 
@@ -72,29 +77,22 @@ body{
     object-fit: cover;
 }
 .section{
-    display:flex;
-    background-color: rgb(85, 59, 20);
+    
     color: rgb(255, 249, 249);
-    height: 200px;
-    flex-direction: column;
+    
+    
 
-}
-table{
-    border-collapse: separate;
-    text-indent:inherit;
-    border-spacing: 20px ;
-    display: flex;
-    justify-content: center;
-    color: white;
-    padding-bottom: 1px;
+    h2{
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-shadow: 2px 0px 5px gray;
+    }
 
+    .row{
+        padding-bottom: 10px;
+    }
 
-}
-tr{
-    display:table-row;
-    vertical-align: middle;
-    text-align: center;
-    font-size: 30px;
 }
 .hijo4{
 
@@ -157,7 +155,6 @@ tr{
         justify-content: space-around;}
 
     h1{
-
         font-style: oblique;
         letter-spacing: 2px;
         text-align: center;
@@ -197,28 +194,9 @@ tr{
         object-fit: contain;
     }
 
-    .section{
-        display:flex;
-        background-color: rgb(85, 59, 20);
-        color: rgb(255, 249, 249);
-        height: 350px;
-        padding: 0%;
+    
 
-    }
 
-    table{
-        border-collapse: separate;
-        text-indent:inherit;
-        display: flex;
-        justify-content: center;
-    }
-
-    tr{
-        display:table-row;
-        vertical-align: middle;
-        text-align: center;
-        font-size: larger;
-    }
 
     ul{
         display: flex;

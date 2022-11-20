@@ -18,7 +18,12 @@ body {
     color: white;
     font-style: oblique;
     letter-spacing: 2px;
-    text-align: center; }
+    text-align: center;
+    padding-top: 2px;
+    padding-left: 10px; }
+  .hijo1 a {
+    text-decoration: none;
+    color: white; }
 
 .hijo2 {
   background-color: #0d300d;
@@ -49,7 +54,12 @@ body {
   .hijo3 h2 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: medium; }
+    font-size: medium;
+    margin: 5px; }
+    .hijo3 h2 a {
+      text-decoration: none;
+      color: white;
+      justify-content: space-around; }
 
 .hijo4 {
   background-color: #0d300d;
@@ -182,7 +192,7 @@ img {
       color: white;
       justify-content: space-around; }
   .hijo3 {
-    padding-top: 2px;
+    padding-top: 20px;
     padding-bottom: 2px;
     margin: 0;
     height: 2500px; }

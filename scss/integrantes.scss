@@ -10,7 +10,7 @@
     padding: 0;
 }
 body{
-    background-color: rgb(124, 110, 124);
+    background-image: linear-gradient(rgb(59, 29, 59), rgb(185, 137, 185),rgb(59, 29, 59));
 }
 .hijo1{
     background-color: rgb(59, 29, 59);
@@ -24,6 +24,13 @@ body{
         font-style: oblique;
         letter-spacing: 2px;
         text-align: center;
+        padding-top: 2px;
+        padding-left: 10px;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
         }
     
 
@@ -97,68 +104,14 @@ body{
     
     }
     .hijo3{
-        height: auto;
-        background-image: linear-gradient(rgb(59, 29, 59), rgb(185, 137, 185),rgb(59, 29, 59));
-    }
-    #grilla{
+        height: 600px;
 
-        display: grid;
-    
-        grid-template-rows: 350px 350px ;
-        grid-template-columns: 20% 20%;
-    
-        row-gap: 30px;
-    
-        grid-template-areas:"a1 a2"
-                            "a3 a4";
-    
-        justify-items:stretch;
-        align-items:stretch;
-    
-        justify-content:space-around;
-        padding: 10px;
-        color: white;
-    
+        .row{
+            padding-top: 10px;
+            margin: 10px;
+            justify-content: space-between;
+        }
     }
-    
-    #a1{
-        grid-area: a1;
-        width: 100%;
-        height: 100%;
-        align-self:center;
-        justify-self: center;
-        object-fit: cover;
-        align-items: center;
-        grid-row: auto;
-    }
-    
-    #a2{
-        grid-area: a2;
-        width: 100%;
-        height: 100%;
-        align-self:center;
-        justify-self: center;
-        object-fit: cover;
-    }
-    
-    #a3{
-        grid-area: a3;
-        width: 100%;
-        height: 100%;
-        align-self:center;
-        justify-self: center;
-        object-fit: cover;
-    }
-    
-    #a4{
-        grid-area: a4;
-        width: 100%;
-        height: 100%;
-        align-self:center;
-        justify-self: center;
-        object-fit: cover;
-    }
-    
 
 
     @media only screen and (max-width:600px){
@@ -205,10 +158,6 @@ body{
                 color: white;
                 justify-content: space-around;
             }
-            
-            .hijo3{
-                margin: 0;
-            }
             ul{
                 display: flex;
                 justify-content: center;
@@ -216,25 +165,22 @@ body{
             }
         }
 
-        #grilla{
+        .hijo3{
+            height: auto;
 
-            display: grid;
-        
-            grid-template-rows: 350px 350px 350px 350px;
-            grid-template-columns: 100%;
-        
-            row-gap: 30px;
-        
-            grid-template-areas:"a1"
-                                "a2"
-                                "a3"
-                                "a4";
-        
-            justify-items:stretch;
-            align-items:stretch;
-        
-            justify-content:space-around;
-            padding: 10px;
-        
+            .row{
+                display: flex;
+                align-content: center;
+                justify-content: space-around;
+                
+            }
+
+            .col-sm-3{
+                width: fit-content;
+                margin: 10px;
+            
+            }
         }
+
+
     }

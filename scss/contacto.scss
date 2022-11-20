@@ -10,7 +10,7 @@
     padding: 0;
 }
 body{
-    background-color: rgb(199, 165, 90);
+    background-image: linear-gradient(rgb(240, 230, 208),rgb(168, 83, 4));
     height: auto;
 }
 
@@ -26,7 +26,12 @@ body{
         font-style: oblique;
         letter-spacing: 2px;
         text-align: center;
+        padding-top: 2px;
+        padding-left: 10px;
     }
+    a{
+        text-decoration: $estilo_link;
+        color: $color_letra;}
 }
 
 .hijo2{
@@ -54,24 +59,36 @@ body{
     }
 
 .hijo3{
-    height: auto;
+    height: 900px;
     margin: 0;
 
     .foto{
         width: 100%;
         object-fit:cover;
     }
-#form{
-    padding: 5px;
-}
+
+    #form{
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+
+    .form-label{
+        font-size: larger;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
     .form-control{
-        margin: 10px;
+
         width: 90%;
-        padding: 5px;
+        padding: 3px;
+        padding-left: 10px;
+    }
+
     }
 
 
-}
+
     
 .hijo4{
     background-color: rgb(168, 83, 4);
@@ -169,6 +186,7 @@ body{
 
         .hijo3{
             margin: 0;
+            height: 600px;
 
             .foto{
                 max-width: 100%;

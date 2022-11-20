@@ -4,7 +4,7 @@
   padding: 0; }
 
 body {
-  background-color: #553b14;
+  background-image: linear-gradient(#3f0d0d, #c9b9b9, #3f0d0d);
   height: auto; }
 
 .hijo1 {
@@ -19,7 +19,12 @@ body {
     color: white;
     font-style: oblique;
     letter-spacing: 2px;
-    text-align: center; }
+    text-align: center;
+    padding-top: 2px;
+    padding-left: 10px; }
+  .hijo1 a {
+    text-decoration: none;
+    color: white; }
 
 .hijo2 {
   background-color: #3f0d0d;
@@ -39,7 +44,7 @@ body {
     justify-content: space-around; }
 
 .hijo3 {
-  height: 1000px;
+  height: auto;
   margin: 0; }
 
 .foto {
@@ -47,26 +52,14 @@ body {
   object-fit: cover; }
 
 .section {
-  display: flex;
-  background-color: #553b14;
-  color: #fff9f9;
-  height: 200px;
-  flex-direction: column; }
-
-table {
-  border-collapse: separate;
-  text-indent: inherit;
-  border-spacing: 20px;
-  display: flex;
-  justify-content: center;
-  color: white;
-  padding-bottom: 1px; }
-
-tr {
-  display: table-row;
-  vertical-align: middle;
-  text-align: center;
-  font-size: 30px; }
+  color: #fff9f9; }
+  .section h2 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-shadow: 2px 0px 5px gray; }
+  .section .row {
+    padding-bottom: 10px; }
 
 .hijo4 {
   background-color: #3f0d0d;
@@ -130,22 +123,6 @@ tr {
     max-width: 100%;
     height: auto;
     object-fit: contain; }
-  .section {
-    display: flex;
-    background-color: #553b14;
-    color: #fff9f9;
-    height: 350px;
-    padding: 0%; }
-  table {
-    border-collapse: separate;
-    text-indent: inherit;
-    display: flex;
-    justify-content: center; }
-  tr {
-    display: table-row;
-    vertical-align: middle;
-    text-align: center;
-    font-size: larger; }
   ul {
     display: flex;
     justify-content: center; } }
