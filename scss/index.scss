@@ -188,14 +188,31 @@ body{
     .hijo3{
 
         height: auto;
+
+        .foto{
+            max-width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+
+        .container{
+            font-size: large;
+            letter-spacing: 1px;
+
+
+            .row{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                height: 150px;
+                justify-items: center;
+
+            }
+        }
     }
 
 
-    .foto{
-        max-width: 100%;
-        height: auto;
-        object-fit: contain;
-    }
+    
 
     
 

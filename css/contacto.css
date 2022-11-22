@@ -55,7 +55,8 @@ body {
   .hijo3 .form-label {
     font-size: larger;
     font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif; }
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.849); }
   .hijo3 .form-control {
     width: 90%;
     padding: 3px;

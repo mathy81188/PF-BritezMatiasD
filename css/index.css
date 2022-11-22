@@ -121,10 +121,19 @@ body {
     justify-content: space-around; }
   .hijo3 {
     height: auto; }
-  .foto {
-    max-width: 100%;
-    height: auto;
-    object-fit: contain; }
+    .hijo3 .foto {
+      max-width: 100%;
+      height: auto;
+      object-fit: contain; }
+    .hijo3 .container {
+      font-size: large;
+      letter-spacing: 1px; }
+      .hijo3 .container .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 150px;
+        justify-items: center; }
   ul {
     display: flex;
     justify-content: center; } }
