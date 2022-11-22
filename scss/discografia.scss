@@ -10,7 +10,7 @@
 }
 
 body{
-    background-image: linear-gradient(rgb(13, 48, 13),rgb(29, 75, 29),rgb(13, 48, 13));
+    background-image: linear-gradient(rgb(13, 48, 13),rgb(103, 121, 103),rgb(13, 48, 13));
 }
 .hijo1{
     background-color: rgb(13, 48, 13);
@@ -31,6 +31,7 @@ body{
         text-decoration: $estilo_link;
         color: $color_letra;}
 }
+
 
 .hijo2{
 
@@ -234,10 +235,12 @@ body{
     flex-direction: column;
     justify-content: space-around;
 
-    h1{
+    .hijo1__logo{
+        height: 50px;
         font-style: oblique;
         letter-spacing: 2px;
         text-align: center;
+        padding-left: 0%;
     }
 }
 

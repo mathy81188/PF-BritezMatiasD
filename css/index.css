@@ -97,10 +97,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around; }
-  h1 {
-    font-style: oblique;
-    letter-spacing: 2px;
-    text-align: center; }
+    .hijo1 .hijo1__logo {
+      height: 50px;
+      font-style: oblique;
+      letter-spacing: 2px;
+      text-align: center;
+      padding-left: 0%; }
   .hijo2 {
     height: 150px;
     flex-direction: column;

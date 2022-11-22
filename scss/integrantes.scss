@@ -127,11 +127,12 @@ body{
             flex-direction: column;
             justify-content: space-around;
     
-            h1{
-            
+            .hijo1__logo{
+                height: 50px;
                 font-style: oblique;
                 letter-spacing: 2px;
                 text-align: center;
+                padding-left: 0%;
             }
         }
     
