@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color:rgb(37, 37, 163) ;
+    background-image: linear-gradient(rgb(32,23,63), rgb(63, 69, 122),rgb(32,23,63));
 
 }
 
@@ -185,23 +185,23 @@ body{
         
     }
     
-    .bio{
-        display: flex;
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-        word-spacing: 5px;
-        text-align:center;
-        margin: 10%;
-        font-size: large;
-        font-weight: 200;
-        width: 80%;
-        
-
-    }
     .hijo3{
         margin: 0;
         width: 100%;
+        .bio{
+            display: flex;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            word-spacing: 5px;
+            text-align:center;
+            margin: 5%;
+            font-size: large;
+            font-weight: 200;
+            width: 80%;
     }
+}
+
+
     ul{
         display: flex;
         justify-content: center;

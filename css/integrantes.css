@@ -4,7 +4,7 @@
   padding: 0; }
 
 body {
-  background-image: linear-gradient(#3b1d3b, #b989b9, #3b1d3b); }
+  background-image: linear-gradient(#3b1d3b, #5e285e, #3b1d3b); }
 
 .hijo1 {
   background-color: #3b1d3b;
@@ -69,7 +69,7 @@ body {
     text-align: center; }
 
 .hijo3 {
-  height: 600px; }
+  height: auto; }
   .hijo3 .row {
     padding-top: 10px;
     margin: 10px;
