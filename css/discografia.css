@@ -194,8 +194,6 @@ img {
       color: white;
       justify-content: space-around; }
   .hijo3 {
-    padding-top: 20px;
-    padding-bottom: 2px;
     margin: 0;
     height: 2500px; }
   #grilla {
@@ -207,7 +205,10 @@ img {
     grid-template-areas: "a1" "a2" "a3" "a4"     "a5" "a6" "a7";
     justify-items: stretch;
     align-items: stretch;
-    justify-content: space-around; }
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    align-content: center; }
     #grilla #disco1 {
       grid-area: a1;
       width: 100%;

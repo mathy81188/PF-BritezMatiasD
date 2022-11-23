@@ -269,8 +269,7 @@ body{
 }
 
 .hijo3{
-    padding-top: 20px;
-    padding-bottom: 2px;
+
     margin: 0;
     height: 2500px;
 }
@@ -300,6 +299,9 @@ body{
     align-items:stretch;
 
     justify-content:space-around;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    align-content: center;
 
     #disco1{
         grid-area: a1;
