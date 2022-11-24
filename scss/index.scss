@@ -97,13 +97,8 @@ body{
 .hijo4{
 
     background-color: rgb(63, 13, 13);
-    font-size: larger;
-    justify-items: center;
-    height: 30px;
-    justify-content: space-between;
     text-align: center;
-    padding-left: 10px;
-    padding-right: 50px;
+    font-size: larger;
 
     .bi-youtube{
         color: gray;
@@ -125,6 +120,11 @@ body{
     }
     .bi-instagram:hover{
         color:purple;
+    }
+
+    ul{
+        margin: 0;
+        padding: 0;
     }
     
 
@@ -215,10 +215,4 @@ body{
 
     
 
-
-
-    ul{
-        display: flex;
-        justify-content: center;
-    }
 }
