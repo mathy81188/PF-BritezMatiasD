@@ -60,40 +60,31 @@ body{
     }
 }
 
-
-
-
-
-
-
 .hijo3{
     height: auto;
     margin: 0;
-}
-
-
-.foto{
+    
+    .foto{
     width: 100%;
-    object-fit: cover;
-}
-.section{
-    
-    color: rgb(255, 249, 249);
-    
-    
+    object-fit: cover;}
 
-    h2{
-        text-align: center;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        text-shadow: 2px 0px 5px gray;
-    }
+    .section{
+        
+        color: rgb(255, 249, 249);
+        
+        h2{
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-shadow: 2px 0px 5px gray;
+        }
 
-    .row{
-        padding-bottom: 10px;
-    }
+        .row{
+            padding-bottom: 10px;
+        }
 
-}
+    }}
+
 .hijo4{
 
     background-color: rgb(63, 13, 13);
@@ -169,21 +160,19 @@ body{
         align-items: center;
         font-size: large;
         display: flex;
-    }
-    li{
-        display: flex;
-        padding-left: 20px;
-        padding-right: 30px;
-        text-align: center;
 
+        li{
+            display: flex;
+            padding-left: 20px;
+            padding-right: 30px;
+            text-align: center;
+            }
 
+        a{
+            text-decoration: none;
+            color: white;
+            justify-content: space-around;}
         }
-
-    a{
-        text-decoration: none;
-        color: white;
-        justify-content: space-around;
-    }
 
     .hijo3{
 
@@ -209,10 +198,4 @@ body{
             }
         }
     }
-
-
-    
-
-    
-
 }

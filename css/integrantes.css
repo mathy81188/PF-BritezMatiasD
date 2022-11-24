@@ -42,6 +42,13 @@ body {
     color: white;
     justify-content: space-around; }
 
+.hijo3 {
+  height: auto; }
+  .hijo3 .row {
+    padding-top: 10px;
+    margin: 10px;
+    justify-content: space-between; }
+
 .hijo4 {
   background-color: #3b1d3b;
   text-align: center;
@@ -67,13 +74,6 @@ body {
     padding-left: 20px;
     padding-right: 30px;
     text-align: center; }
-
-.hijo3 {
-  height: auto; }
-  .hijo3 .row {
-    padding-top: 10px;
-    margin: 10px;
-    justify-content: space-between; }
 
 @media only screen and (max-width: 600px) {
   body {

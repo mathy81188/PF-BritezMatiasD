@@ -47,8 +47,7 @@ body{
         display: $lista-display;
         padding-left: $lista-padding-left;
         padding-right: $lista-padding-right;
-        text-align: $lista-text-align;
-    
+        text-align: $lista-text-align; 
         }
     
     a{
@@ -80,16 +79,12 @@ body{
     }
 
     .form-control{
-
         width: 90%;
         padding: 3px;
         padding-left: 10px;
     }
 
     }
-
-
-
     
 .hijo4{
     background-color: rgb(168, 83, 4);
@@ -130,7 +125,6 @@ body{
         padding-left: $lista-padding-left;
         padding-right: $lista-padding-right;
         text-align: $lista-text-align;
-    
         }
     
 }
@@ -171,8 +165,6 @@ body{
             padding-left: 20px;
             padding-right: 30px;
             text-align: center;
-    
-        
             }
         
         a{
@@ -180,20 +172,18 @@ body{
             color: white;
             justify-content: space-around;
         }
-        
-
         ul{
             display: flex;}
     }
 
-        .hijo3{
-            margin: 0;
-            height: 700px;
+    .hijo3{
+        margin: 0;
+        height: 700px;
 
-            .foto{
-                max-width: 100%;
-                height: auto;
-                object-fit: contain;
-            }
+        .foto{
+            max-width: 100%;
+            height: auto;
+            object-fit: contain;
         }
+    }
     }

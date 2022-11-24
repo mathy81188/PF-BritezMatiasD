@@ -125,18 +125,12 @@ body{
 }
 
 
-img{
-        max-width: 100px;
-        min-width: 300px;
-        max-height: 300px;
-        object-fit:cover;}
     
 
 
 #grilla{
 
     display: grid;
-
 
 
     grid-template-rows: 320px 320px 320px;
@@ -157,71 +151,77 @@ img{
     padding-top: 20px;
     padding-bottom: 20px;
 
-}
+    img{
+        max-width: 100px;
+        min-width: 300px;
+        max-height: 300px;
+        object-fit:cover;}
 
-#disco1{
-    grid-area: a1;
-    width: 100%;
-    height: 100%;
-    align-self:center;
-    justify-self: center;
-    object-fit: cover;
-    align-items: center;
-}
 
-#disco2{
-    grid-area: a2;
-    width: 100%;
-    height: 100%;
-    align-self:center;
-    justify-self: center;
-    object-fit: cover;
-}
 
-#disco3{
-    grid-area: a3;
-    width: 100%;
-    height: 100%;
-    align-self:center;
-    justify-self: center;
-    object-fit: cover;
-}
+    #disco1{
+        grid-area: a1;
+        width: 100%;
+        height: 100%;
+        align-self:center;
+        justify-self: center;
+        object-fit: cover;
+        align-items: center;
+    }
 
-#disco4{
-    grid-area: a4;
-    width: 100%;
-    height: 100%;
-    align-self:center;
-    justify-self: center;
-    object-fit: cover;
-}
+    #disco2{
+        grid-area: a2;
+        width: 100%;
+        height: 100%;
+        align-self:center;
+        justify-self: center;
+        object-fit: cover;
+    }
 
-#disco5{
-    grid-area: a5;
-    width: 100%;
-    height: 100%;
-    align-self:center;
-    justify-self: center;
-    object-fit: cover;
-}
+    #disco3{
+        grid-area: a3;
+        width: 100%;
+        height: 100%;
+        align-self:center;
+        justify-self: center;
+        object-fit: cover;
+    }
 
-#disco6{
-    grid-area: a6;
-    width: 100%;
-    height: 100%;
-    align-self:center;
-    justify-self: center;
-    object-fit: cover;
-}
+    #disco4{
+        grid-area: a4;
+        width: 100%;
+        height: 100%;
+        align-self:center;
+        justify-self: center;
+        object-fit: cover;
+    }
 
-#disco7{
-    grid-area: a7;
-    width: 100%;
-    height: 100%;
-    align-self:center;
-    justify-self: center;
-    object-fit: cover;
-}
+    #disco5{
+        grid-area: a5;
+        width: 100%;
+        height: 100%;
+        align-self:center;
+        justify-self: center;
+        object-fit: cover;
+    }
+
+    #disco6{
+        grid-area: a6;
+        width: 100%;
+        height: 100%;
+        align-self:center;
+        justify-self: center;
+        object-fit: cover;
+    }
+
+    #disco7{
+        grid-area: a7;
+        width: 100%;
+        height: 100%;
+        align-self:center;
+        justify-self: center;
+        object-fit: cover;
+}}
 
 @media only screen and (max-width:600px){
 
@@ -303,90 +303,5 @@ body{
     padding-top: 20px;
     padding-bottom: 2px;
     align-content: center;
-
-    #disco1{
-        grid-area: a1;
-        width: 100%;
-        height: 100%;
-        align-self:center;
-        justify-self: center;
-        object-fit: cover;
-        align-items: center;
-    }
-    
-    #disco2{
-        grid-area: a2;
-        width: 100%;
-        height: 100%;
-        align-self:center;
-        justify-self: center;
-        object-fit: cover;
-    }
-    
-    #disco3{
-        grid-area: a3;
-        width: 100%;
-        height: 100%;
-        align-self:center;
-        justify-self: center;
-        object-fit: cover;
-    }
-    
-    #disco4{
-        grid-area: a4;
-        width: 100%;
-        height: 100%;
-        align-self:center;
-        justify-self: center;
-        object-fit: cover;
-    }
-    
-    #disco5{
-        grid-area: a5;
-        width: 100%;
-        height: 100%;
-        align-self:center;
-        justify-self: center;
-        object-fit: cover;
-    }
-    
-    #disco6{
-        grid-area: a6;
-        width: 100%;
-        height: 100%;
-        align-self:center;
-        justify-self: center;
-        object-fit: cover;
-    }
-    
-    #disco7{
-        grid-area: a7;
-        width: 100%;
-        height: 100%;
-        align-self:center;
-        justify-self: center;
-        object-fit: cover;
-    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

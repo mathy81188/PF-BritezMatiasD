@@ -46,20 +46,18 @@ body {
 .hijo3 {
   height: auto;
   margin: 0; }
-
-.foto {
-  width: 100%;
-  object-fit: cover; }
-
-.section {
-  color: #fff9f9; }
-  .section h2 {
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-shadow: 2px 0px 5px gray; }
-  .section .row {
-    padding-bottom: 10px; }
+  .hijo3 .foto {
+    width: 100%;
+    object-fit: cover; }
+  .hijo3 .section {
+    color: #fff9f9; }
+    .hijo3 .section h2 {
+      text-align: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      text-shadow: 2px 0px 5px gray; }
+    .hijo3 .section .row {
+      padding-bottom: 10px; }
 
 .hijo4 {
   background-color: #3f0d0d;
@@ -108,15 +106,15 @@ body {
     align-items: center;
     font-size: large;
     display: flex; }
-  li {
-    display: flex;
-    padding-left: 20px;
-    padding-right: 30px;
-    text-align: center; }
-  a {
-    text-decoration: none;
-    color: white;
-    justify-content: space-around; }
+    .hijo2 li {
+      display: flex;
+      padding-left: 20px;
+      padding-right: 30px;
+      text-align: center; }
+    .hijo2 a {
+      text-decoration: none;
+      color: white;
+      justify-content: space-around; }
   .hijo3 {
     height: auto; }
     .hijo3 .foto {
