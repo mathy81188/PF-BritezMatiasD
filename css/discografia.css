@@ -49,7 +49,6 @@ body {
   width: 100%;
   align-items: center;
   align-content: space-between;
-  margin: 20px;
   justify-content: space-around; }
   .hijo3 h2 {
     color: white;
@@ -102,7 +101,9 @@ img {
   grid-template-areas: "a1 a2 a3" "a4 a5 a6" ".  a7 . ";
   justify-items: stretch;
   align-items: stretch;
-  justify-content: space-around; }
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px; }
 
 #disco1 {
   grid-area: a1;
@@ -161,7 +162,7 @@ img {
   justify-self: center;
   object-fit: cover; }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
   body {
     height: auto;
     width: auto; }

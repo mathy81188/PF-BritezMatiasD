@@ -63,7 +63,6 @@ body{
     width: 100%;
     align-items: center;
     align-content:space-between ;
-    margin: 20px;
     justify-content: space-around;
     
 
@@ -155,6 +154,8 @@ img{
     align-items:stretch;
 
     justify-content:space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 }
 
@@ -222,7 +223,7 @@ img{
     object-fit: cover;
 }
 
-@media only screen and (max-width:700px){
+@media only screen and (max-width:600px){
 
 body{
     height: auto;
